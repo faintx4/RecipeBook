@@ -28,4 +28,8 @@ export class RecipeService {
     return this.recipes.slice();
   }
 
+  getSingleRecipe(id: number) {
+    return this.recipes.find((recipe) => recipe.id === id);
+  }
+
 }

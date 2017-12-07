@@ -27,8 +27,8 @@ export class RecipsDetailComponent implements OnInit {
   }
 
 
-  /*sendRecipesIngredientsToShoppingList() {
+  sendRecipesIngredientsToShoppingList() {
     this.shoppingListService.addIngredients(this.recipe.ingredients);
-  }*/
+  }
 
 }
